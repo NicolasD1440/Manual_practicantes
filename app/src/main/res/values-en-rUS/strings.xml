@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Manual para practicantes</string>
+    <string name="Inicio">Home</string>
+    <string name="Informacion">Information</string>
+    <string name="Registrarse">Sign up</string>
+    <string name="Terminar">Finish</string>
+    <string name="siguiente">Next</string>
+    <string name="Nivel1">Level 1</string>
+    <string name="Nivel2">Level 2</string>
+    <string name="Nivel3">Level 3</string>
+    <string name="Nivel4">Level 4</string>
+    <string name="Nivel5">Level 5</string>
+    <string name="Nivel6">Level 6</string>
+    <string name="Nivel7">Level 7</string>
+    <string name="Nivel8">Level 8</string>
+    <string name="pronto">Coming son...</string>
+    <string name="inciar">Login</string>
+    <string name="Nombre">Name</string>
+    <string name="Apellido">Last name</string>
+    <string name="Correo">Email</string>
+    <string name="Contraseña">Password</string>
+    <string name="Olviste_la_contraseña">Forgot password?</string>
+    <string name="regiostro_google">Or sing in with</string>
+    <string name="correo_del_usuario">User Email</string>
+    <string name="nombre_del_usuario">User Name</string>
+    <string name="id_usuario">User ID</string>
+    <string name="resursos">Resourses</string>
+    <string name="Inicio_google">Or login with</string>
+    <string name="si">Yes</string>
+    <string name="salir_app">¿Do you want to exit?</string>
+    <string name="Cerrar_sesion">Loguot</string>
+    <string name="salir_quiz">¿Do you want exit this quiz?</string>
+    <string name="introduccion">Introduction</string>
+</resources>

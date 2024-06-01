@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "600484401818",
+    "firebase_url": "https://mi-primer-proyecto-fc395-default-rtdb.firebaseio.com",
+    "project_id": "mi-primer-proyecto-fc395",
+    "storage_bucket": "mi-primer-proyecto-fc395.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600484401818:android:e4810b769aedef46ac0523",
+        "android_client_info": {
+          "package_name": "nicolas.example.manualparapracticantes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600484401818-ie30ms966m06va0cer15nvmfiulfk816.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nicolas.example.manualparapracticantes",
+            "certificate_hash": "64fbfa9dd7bfb982107de6a45e196a9552497cf6"
+          }
+        },
+        {
+          "client_id": "600484401818-2uu5i40osjsbe437ogv9rdr4nfigmsmd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQCaEJXKftCtj0MGcWj2PyTISOmjvQ3gs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600484401818-2uu5i40osjsbe437ogv9rdr4nfigmsmd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

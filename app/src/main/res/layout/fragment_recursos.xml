@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="#804fc4"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <ImageView
+                    android:id="@+id/IconImage"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:paddingLeft="14dp"
+                    android:paddingRight="14dp"
+                    app:srcCompat="@drawable/level1">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toEndOf="@id/IconImage"
+                    android:layout_toRightOf="@id/IconImage"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nameTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/Nivel1"
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/Descripcion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:text="@string/resursos"
+                        android:textColor="@color/black"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/Rnivel1"
+                    android:layout_width="377dp"
+                    android:layout_height="89dp"
+                    android:backgroundTint="@color/fui_transparent"
+                    app:cornerRadius="40dp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <ImageView
+                    android:id="@+id/IconImage2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:paddingLeft="14dp"
+                    android:paddingRight="14dp"
+                    app:srcCompat="@drawable/personas">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toEndOf="@id/IconImage2"
+                    android:layout_toRightOf="@id/IconImage2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nameTextView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/Nivel2"
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/Descripcion2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:text="@string/resursos"
+                        android:textColor="@color/black"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/Rnivel2"
+                    android:layout_width="377dp"
+                    android:layout_height="89dp"
+                    android:backgroundTint="@color/fui_transparent"
+                    app:cornerRadius="40dp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <ImageView
+                    android:id="@+id/IconImage3"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:paddingLeft="14dp"
+                    android:paddingRight="14dp"
+                    app:srcCompat="@drawable/level3">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toEndOf="@id/IconImage3"
+                    android:layout_toRightOf="@id/IconImage3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nameTextView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/Nivel3"
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/Descripcion3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:text="@string/resursos"
+                        android:textColor="@color/black"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/Rnivel3"
+                    android:layout_width="377dp"
+                    android:layout_height="89dp"
+                    android:backgroundTint="@color/fui_transparent"
+                    app:cornerRadius="40dp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <ImageView
+                    android:id="@+id/IconImage4"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:paddingLeft="14dp"
+                    android:paddingRight="14dp"
+                    app:srcCompat="@drawable/level4">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toEndOf="@id/IconImage4"
+                    android:layout_toRightOf="@id/IconImage4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nameTextView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/Nivel4"
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/Descripcion4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:text="@string/resursos"
+                        android:textColor="@color/black"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/Rnivel4"
+                    android:layout_width="377dp"
+                    android:layout_height="89dp"
+                    android:backgroundTint="@color/fui_transparent"
+                    app:cornerRadius="40dp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <ImageView
+                    android:id="@+id/IconImage5"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:paddingLeft="14dp"
+                    android:paddingRight="14dp"
+                    app:srcCompat="@drawable/level5">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toEndOf="@id/IconImage5"
+                    android:layout_toRightOf="@id/IconImage5"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nameTextView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/Nivel5"
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/Descripcion5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:text="@string/resursos"
+                        android:textColor="@color/black"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/Rnivel5"
+                    android:layout_width="377dp"
+                    android:layout_height="89dp"
+                    android:backgroundTint="@color/fui_transparent"
+                    app:cornerRadius="40dp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <ImageView
+                    android:id="@+id/IconImage6"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:paddingLeft="14dp"
+                    android:paddingRight="14dp"
+                    app:srcCompat="@drawable/level6">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toEndOf="@id/IconImage6"
+                    android:layout_toRightOf="@id/IconImage6"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nameTextView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/Nivel6"
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/Descripcion6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:text="@string/resursos"
+                        android:textColor="@color/black"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/Rnivel6"
+                    android:layout_width="377dp"
+                    android:layout_height="89dp"
+                    android:backgroundTint="@color/fui_transparent"
+                    app:cornerRadius="40dp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <ImageView
+                    android:id="@+id/IconImage7"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:paddingLeft="14dp"
+                    android:paddingRight="14dp"
+                    app:srcCompat="@drawable/level7">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toEndOf="@id/IconImage7"
+                    android:layout_toRightOf="@id/IconImage7"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nameTextView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/Nivel7"
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/Descripcion7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:text="@string/resursos"
+                        android:textColor="@color/black"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/Rnivel7"
+                    android:layout_width="377dp"
+                    android:layout_height="89dp"
+                    android:backgroundTint="@color/fui_transparent"
+                    app:cornerRadius="40dp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <ImageView
+                    android:id="@+id/IconImage8"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:paddingLeft="14dp"
+                    android:paddingRight="14dp"
+                    app:srcCompat="@drawable/level8">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toEndOf="@id/IconImage8"
+                    android:layout_toRightOf="@id/IconImage8"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nameTextView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/Nivel8"
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/Descripcion8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:text="@string/resursos"
+                        android:textColor="@color/black"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/Rnivel8"
+                    android:layout_width="377dp"
+                    android:layout_height="89dp"
+                    android:backgroundTint="@color/fui_transparent"
+                    app:cornerRadius="40dp" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:animateLayoutChanges="true"
+android:orientation="vertical">
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,211 @@
+<resources>
+    <string name="app_name">Manual para practicantes</string>
+    <string name="Inicio">Incio</string>
+    <string name="Informacion">Informacion</string>
+    <string name="Registrarse">Registrarse</string>
+    <string name="inciar">Iniciar sesion</string>
+    <string name="Cerrar_sesion">Cerrar sesion</string>
+    <string name="Terminar">Terminar</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Apellido">Apellido</string>
+    <string name="Correo">Correo</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="Olviste_la_contraseña">¿Olvidate la contraseña?</string>
+    <string name="regiostro_google">O registrate con:</string>
+    <string name="correo_del_usuario">Correo del usuario</string>
+    <string name="nombre_del_usuario">Nombre del usuario</string>
+    <string name="id_usuario">Id del usuario</string>
+    <string name="resursos">Recursos</string>
+    <string name="Inicio_google">O Inicia sesion con:</string>
+    <string name="si">SI</string>
+    <string name="salir_app">¿Quieres salir de la aplicacion?</string>
+    <string name="salir_quiz">¿Quieres salir de este quiz?</string>
+    <string name="introduccion">Introduccion</string>
+
+    <string name="Nivel1">Nivel 1</string>
+    <string name="Nivel2">Nivel 2</string>
+    <string name="Nivel3">Nivel 3</string>
+    <string name="Nivel4">Nivel 4</string>
+    <string name="Nivel5">Nivel 5</string>
+    <string name="Nivel6">Nivel 6</string>
+    <string name="Nivel7">Nivel 7</string>
+    <string name="Nivel8">Nivel 8</string>
+    <string name="pronto">Muy pronto...</string>
+
+    <string name="default_web_client_ids" translatable="false">600484401818-2uu5i40osjsbe437ogv9rdr4nfigmsmd.apps.googleusercontent.com</string>
+
+    <array name="todas_preguntas">
+        <item>¿A que comuna pertenece la comisaria tercera de familia?;*Comuna1;Comuna2;Comuna3
+        </item>
+        <item>Seleccione los barrio que NO pertenecen a la comisaria tercera de familia?;Hogares,
+            Veredita y Ciudad Verde; Villa Sofia y Hogares.;*Hogares, Veredita y Ciudad Verde.
+        </item>
+        <item>Seleccione los barrios correspondientes a la comisaria tercera de familia ;Santa Ana,
+            Villa Sofia y Ducales.;Santa Ana, Maipore y Hogares;*Santa Ana, Villa Sofia y Ducales.
+        </item>
+
+
+    </array>
+
+    <array name="todas_preguntas2">
+        <item>¿Qué es responsabilidad parental?;Restauración de la dignidad e integridad como
+            sujetos.;*Complemento de la patria potestad.;Toda forma de prejuicio, castigo,
+            humillación y abuso físico y psicológico.
+        </item>
+        <item>Se entiende por alimentos todo lo que es necesario para el desarrollo integral de los
+            niños/as y adolescentes, ¿esta afirmación es?;Falso;Ninguna;*Verdadero
+        </item>
+        <item>Se entiende por agresión la acción que tiene la intención de hacerle daño a otra
+            persona. Esta agresión puede ser física, verbal, relacional, instrumental y reactiva,
+            ¿esta afirmación es?;Falso;Ninguna;*Verdadero
+        </item>
+        <item>¿Que se entiende por amenaza?;Acción que tiene la intención de hacerle daño a otra
+            persona. Esta puede ser física, verbal, relacional, instrumental y reactiva.;*Acción que
+            tiene la intención de atemorizar o intimidar a un miembro de la familia con el propósito
+            de causar miedo o zozobra.;Aquellos actos que están encaminados a crear un ambiente de
+            incomodidad y enrarecimiento que conspire en contra de la mutua confianza y tranquilidad
+            familiar
+        </item>
+        <item>¿Que entiende por daño patrimonial?;Son lugares dignos y seguros para vivir
+            temporalmente y que cubren las necesidades básicas de las mujeres y sus hijos en cuanto
+            a hospedaje, alimentación, protección y asesoría jurídica. Deben tener personería
+            jurídica y si prestan servicios de salud deben estar habilitados como IPS.;*Pérdida,
+            transformación, sustracción, destrucción, retención o distracción de objetos,
+            instrumentos de trabajo, documentos personales, bienes, valores, derechos o económicos
+            destinados a satisfacer las necesidades de las necesidades de la víctima.;Son aquellas
+            medidas que adoptan las autoridades competentes de manera inmediata, con el objeto de
+            poner fin a la violencia, maltrato o agresión, o evitar que esta se realice cuando fuere
+            inminente.
+        </item>
+
+    </array>
+
+    <array name="todas_preguntas3">
+        <item>¿Cuántos enfoques diferenciales hay?;*11;9;10</item>
+        <item>¿Cuantos minutos se deben tener en cuenta para la realización de una
+            audiencia?;190;40;*60
+        </item>
+        <item>La familia se entiende como la unidad más básica de la sociedad y en ella se genera el
+            desarrollo de valores, objetivos de vida e identidades que permiten la adaptación del
+            individuo a la sociedad.;Ninguna;Falso;*Verdadero
+        </item>
+
+
+    </array>
+
+    <array name="todas_preguntas4">
+        <item>¿Cuántos objetivos tiene realizar una visita domiciliaria?;*4;8;5</item>
+        <item>¿Cuál es el documento que se realiza para el reconocimiento de una pensión alimentaria
+            a los padres, abuelos y bisnietos?;Acta de conciliación de alimentos ;Obligación Legal
+            ;*Acta de conciliación de alimentos ascendientes
+        </item>
+        <item>¿El acta de no conciliación es un documento que se realiza en caso de que, en la
+            audiencia, las partes citadas lleguen a mutuo acuerdo en la fijación de alimentos,
+            custodia y visitas?;Verdadero;Ninguna;*Falso
+        </item>
+        <item>¿El acta de decreto provisional de alimentos es un documento que se realiza así no
+            asista la otra parte?;*Verdedero;Falso;Ninguna
+        </item>
+        <item>cuál es el documento que se realiza cuando la mujer esta en estado de embarazo;acta de
+            audiencia fracasada;*acta de conciliación de reconocimiento voluntario del bebe en
+            gestación y fijación provisional de alimentos nasciturus;Acta de alimentos
+        </item>
+
+    </array>
+
+    <array name="todas_preguntas5">
+        <item>El incumplimiento de las medidas de protección dará lugar a las siguientes
+            sanciones:;*Dicha competencia es, principalmente, del Comisario de Familia del lugar
+            donde ocurrieron los hechos o a falta de este, el Juez Civil Municipal o Promiscuo
+            Municipal.;El equipo interdisciplinar de las comisarías de familia.;Los trabajadores
+            sociales y psicólogos.
+        </item>
+        <item>¿Quién puede hacer la solicitud de medidas de protección?;Por la primera vez, multa
+            entre dos (2) y diez (10) salarios mínimos legales mensuales, la cual debe consignarse
+            dentro de los cinco (5) días siguientes a su imposición. La Conversión en arresto se
+            adoptará de plano mediante auto que sólo tendrá recursos de reposición, a razón de tres
+            (3) días por cada salario mínimo.;Si el incumplimiento de las medidas de protección se
+            repitiere en el plazo de dos (2) años, la sanción será de arresto entre treinta (30) y
+            cuarenta y cinco (45) días.;*Todas las anteriores.
+        </item>
+        <item>Cuál es el término para la presentación de una medida de protección?;*El término es de
+            30 días siguientes a la ocurrencia del hecho.;El termino es de 2 semanas siguientes a la
+            ocurrencia del hecho.;el termino es de 1 semana siguiente a la ocurrencia del hecho.
+        </item>
+        <item>¿quiénes son las personas objeto de medidas de atención?;*Todas las anteriores;Todas
+            las personas mayores de 18 años, víctimas de cualquier tipo de violencia de acuerdo con
+            lo señalado en la Ley 1257 de 2008 Y Cuando la víctima sea una mujer con discapacidad,
+            las medidas deben incluir a su cuidador.;Hijos e hijas menores de 18 años, y los hijos e
+            hijas mayores de 18 años con discapacidad, dependientes de la mujer víctima de violencia
+            física y/o mental.
+        </item>
+
+    </array>
+
+    <array name="todas_preguntas6">
+        <item>¿Bajo qué ley se rige la comisaria de familia?;*1098 de 2006 ;1751 de 2015;599 de
+            2000
+        </item>
+        <item>¿Cuál es la ley que brinda los derechos de las víctimas de violencia sexual?;1719 de
+            2014;1147 de 2007;*360 de 1997
+        </item>
+        <item>¿Bajo qué ley se establecen medidas de protección al adulto mayor?;1251 de 2008;1618
+            de 2013;*1850 de 2017
+        </item>
+        <item>¿Cuál es la ley que garantizan los derechos de los derechos de las personas con
+            discapacidad?;640 de 2001 ;*1618 de 2013;1147 de 2007
+        </item>
+        <item>¿La ley 1147 de 2007 expide normas para para la prevención de la violencia sexual y
+            atención integral de los niños, niñas y adolescentes abusados
+            sexualmente?;Falso;Ninguna;*Verdadero
+        </item>
+    </array>
+
+    <array name="todas_preguntas7">
+        <item>la intervención psicosocial se entiende por:;*aprendizaje, facilitación, apoyo,
+            mediación, control y tutela, terapéutica, interfaz o en red;cuenta con medidas aplicadas
+            con una lógica ecosistemico y constructivista que incorporan las nociones de diversidad
+            y generatividad;situación, supuestos, objetivo de la intervención
+        </item>
+        <item>el rol del trabajador social consiste en:;elaborar un diagnóstico definitivo,
+            basándose en la causa primaria y en las causas sociales que contribuyen directamente o
+            indirectamente en la problemática de la familia ;*Todas las anteriores;realizar
+            tratamientos sociales individuales y orientación familiar según la problemática que
+            requiera la población atendida
+        </item>
+        <item>el rol del psicólogo se entiende por:;adoptar las medidas de restablecimiento
+            establecidas en la presente ley para detener la violación o amenaza de los derechos de
+            los niños, niñas y adolescentes;dictar las medidas de restablecimiento de los derechos
+            de los niños y las niñas menores de 14 años ;*aplicar según el caso las pruebas
+            psicológicas como bacterias de evaluación familiar, evaluación niños, evaluación
+            conflicto, conducta prosocial y conducta delictiva
+        </item>
+
+    </array>
+
+    <array name="todas_preguntas8">
+        <item>La prevención de la violencia intrafamiliar principalmente a que entidad
+            corresponde;*Comisaria de familia;ICBF;Personería
+        </item>
+        <item>Cual es el principal rol del trabajador social dentro de la comisaria de familia;Dar
+            fallos de medida de protección;*Visitas domiciliarias y orientación
+            psicosocial;Organizar el archivo
+        </item>
+        <item>Que entidad del estado trabaja principalmente prevención, protección integral de la
+            primera infancia, niñez y adolescencia, prestando atención principalmente aquellos en
+            estado de vulneración de sus derechos.;Personería;Comisaria de familia;*ICBF
+        </item>
+        <item>Que profesional es el representante legal de los niños una vez hayan ingresado a
+            protección del ICBF por distintas situaciones donde se les ha vulnerado sus
+            derechos;*defensora de familia;psicólogo;Ninguna de las anteriores
+        </item>
+        <item>El enfoque diferencial del ICBF se da a partir de ciertas categorías, cuáles
+            son?;*Discapacidad, pertenencia étnica, género y diversidad sexual;Estrato social,
+            escolaridad y edad;vulneración de derechos , violencia intrafamiliar y maltrato infantil
+        </item>
+
+    </array>
+
+
+</resources>
